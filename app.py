@@ -41,4 +41,4 @@ if st.button("🔍 Analyze Sentiment"):
         # Display the sentiment in fancy style using markdown
         st.markdown(f"<p style='{sentiment_color}'>**Predicted Sentiment:** {sentiment}</p>", unsafe_allow_html=True)
     else:
-        st.
+        st.error("Please enter some text.")
